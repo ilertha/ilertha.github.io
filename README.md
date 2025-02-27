@@ -1,7 +1,7 @@
 # Personal Portfolio ⚡️ 
 > A clean, beautiful, responsive portfolio template for Software Developers!
 
-> https://rizzolib.github.io/
+> https://ilertha.github.io/
 
 ### Website Preview
 :star: Star me on GitHub — it helps!
