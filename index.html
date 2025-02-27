@@ -1,726 +1,1296 @@
 <!-- <!DOCTYPE html> -->
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PGZH8HT");
+    </script>
+    <!-- End Google Tag Manager -->
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+    <!-- Materialize - Compiled and minified CSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css"
+    />
+    <!-- Font Awesome Icon - CSS-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+    />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>James Ybarra | Blockchain Developer</title>
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <title>James Ybarra | Blockchain Developer</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "UA-126939217-2");
+    </script>
 
-    gtag('config', 'UA-126939217-2');
-  </script>
+    <!-- Open Graph-->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="James Ybarra | Blockchain Developer" />
+    <meta property="og:description" content="Blockchain Developer" />
+    <meta property="og:url" content="https://varadbhogayata.github.io/" />
+    <meta
+      property="og:site_name"
+      content="James Ybarra | Blockchain Developer"
+    />
+    <meta
+      property="article:publisher"
+      content="https://varadbhogayata.github.io/"
+    />
+    <meta
+      property="og:image"
+      content="https://varadbhogayata.github.io/examples/preview.JPG"
+    />
+    <!-- Twitter -->
+    <meta name="author" content="James Ybarra" />
+    <meta
+      name="description"
+      content="Blockchain Developer with a passion for backend development and artificial intelligence."
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="./assets/img/favicon/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="./assets/img/favicon/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="./assets/img/favicon/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/favicon/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="./assets/img/favicon/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="./assets/img/favicon/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="./assets/img/favicon/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="./assets/img/favicon/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="./assets/img/favicon/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="./assets/img/favicon/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/img/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="./assets/img/favicon/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="robots" content="index, follow" />
+    <!-- Google Site Verification for indexing -->
+    <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
+  </head>
 
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="James Ybarra | Blockchain Developer" />
-  <meta property="og:description" content="Blockchain Developer" />
-  <meta property="og:url" content="https://varadbhogayata.github.io/" />
-  <meta property="og:site_name" content="James Ybarra | Blockchain Developer" />
-  <meta property="article:publisher" content="https://varadbhogayata.github.io/" />
-  <meta property="og:image" content="https://varadbhogayata.github.io/examples/preview.JPG" />
-  <!-- Twitter -->
-  <meta name="author" content="James Ybarra" />
-  <meta name="description" content="Blockchain Developer with a passion for backend development and artificial intelligence." />
-  <link rel="apple-touch-icon" sizes="57x57" href="./assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="./assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="./assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="./assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="./assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="./assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="./assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <!-- <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" /> -->
-</head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
+    <!-- Navigation Menu-->
+    <!-- Nav class 1 -->
+    <nav class="hide-on-small-only">
+      <ul class="side-nav fixed section table-of-contents">
+        <li class="logo">
+          <a
+            id="logo-container"
+            aria-label="Navigate to the beginning of the page"
+            href="#intro"
+            class="brand-logo grey-blue-text"
+          >
+            <img
+              src="./assets/img/avatar.jpg"
+              class="circle img-responsive profile-pic"
+              alt="avatar"
+            />
+          </a>
+        </li>
 
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="./assets/img/avatar.jpg" class="circle img-responsive profile-pic" alt="avatar">
-        </a>
-      </li>
-
-      <li class="bold">
-        <!--
+        <li class="bold">
+          <!--
         ICONS:
         mdi-action-assessment
         mdi-social-poll
         mdi-av-equalizer
         -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-assessment small"></i><span>Skills</span></a
+          >
+        </li>
 
-      <li class="bold">
-        <!-- mdi-av-web small
+        <li class="bold">
+          <!-- mdi-av-web small
              mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-av-my-library-books small"></i
+            ><span>Projects</span></a
+          >
+        </li>
 
-      <li class="bold">
-        <!-- 
+        <li class="bold">
+          <!-- 
         1. mdi-communication-contacts
         2. mdi-content-mail
         3. mdi-communication-email
         -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open James's Resume in a new tab"
-          href="https://cvdesignr.com/p/670d7793aaf6c" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open James's Resume in a new tab"
+            href="https://drive.google.com/file/d/1tgcwLFzpud470t_iXOSKHKArwS0XzE5U/view?usp=sharing"
+            target="_blank"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-file-folder-open small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
 
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">James Ybarra</a><span class="black-text">Senior Blockchain Developer</span>
-    </div>
-  </nav>
+    <!-- Nav class 2 -->
+    <nav class="hide-on-large only trigger z-depth-1">
+      <a
+        aria-label="Toggle visibility of the mobile navbar"
+        href="#"
+        data-activates="slide-out"
+        class="button-collapse"
+        ><i class="mdi-navigation-menu"></i
+      ></a>
+      <div class="name-title">
+        <a
+          id="name"
+          aria-label="Navigate to the beginning of the page"
+          href="#"
+          class="teal-text"
+          >James Ybarra</a
+        ><span class="black-text">Senior Blockchain Developer</span>
+      </div>
+    </nav>
 
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open James's Resume in a new tab"
-          href="https://cvdesignr.com/p/670d7793aaf6c" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
+    <!-- Nav class 3 -->
+    <nav class="hide-on-large only">
+      <ul id="slide-out" class="side-nav">
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Skills section"
+            href="#skills"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-action-assessment small"></i><span>Skills</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Projects section"
+            href="#projects"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-av-my-library-books small"></i
+            ><span>Projects</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Navigate to the Contact section"
+            href="#contact"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-content-mail small"></i><span>Contact</span></a
+          >
+        </li>
+        <li class="bold">
+          <a
+            aria-label="Open James's Resume in a new tab"
+            href="https://drive.google.com/file/d/1tgcwLFzpud470t_iXOSKHKArwS0XzE5U/view?usp=sharing"
+            target="_blank"
+            class="waves-effect waves-dark teal-text"
+            ><i class="mdi-file-folder-open small"></i><span>Resume</span></a
+          >
+        </li>
+      </ul>
+    </nav>
 
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">James Ybarra.</span></h2>
-              <h5 style="color:#fff"><span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <h5>Senior blockchain developer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
+    <!-- Main Content-->
+    <main>
+      <!-- First Section: Heading lines and image -->
+      <section id="intro" class="section scrollspy full-height">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="col-md-9">
+            <div
+              class="content section-padding valign"
+              style="margin-left: 10%; margin-top: 50px"
+            >
+              <div class="caption">
+                <h2>Hi, I'm <span class="teal">James Ybarra.</span></h2>
+                <h5 style="color: #fff">
+                  <span
+                    class="typing"
+                    style="font-weight: 300; color: #004d40"
+                  ></span>
+                </h5>
+                <h5>
+                  Senior blockchain developer with a curious mind who enjoys
+                  solving a complex and challenging real-world problems.
+                </h5>
 
-              <p>
-                As a lead full-stack and blockchain developer with 7 years of development experience and 5 years focused on blockchain technology, I specialize in EVM protocols, Solana dApps and bots. I have a strong background in decentralized finance, NFT platforms, and blockchain gaming.
-              </p>
+                <p>
+                  As a lead full-stack and blockchain developer with 7 years of
+                  development experience and 5 years focused on blockchain
+                  technology, I specialize in EVM protocols, Solana dApps and
+                  bots. I have a strong background in decentralized finance, NFT
+                  platforms, and blockchain gaming.
+                </p>
 
-              <div class="row">
-                <!-- Education -->
-                <div class="col s12 m6 l6">
-                  <div class="card">
-                    <div class="card-content">
-                      <p>
-                        <span class="card-title"><a href="https://www.ncc-net.ac.jp/" target="_blank" class="teal-text hoverline">Niigata Computer College</a></span>
-                      </p>
-                      <p class="brown-text">3-chōme-1-53 Yoneyama, Chuo Ward, Niigata, 950-0916, Japan</p>
-                      <p>
-                        Bachelor's degree in Information Technology       
-                        <br>
-                        <b>2016.09 - 2019.11</b>
-                      </p>
+                <div class="row">
+                  <!-- Education -->
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-content">
+                        <p>
+                          <span class="card-title"
+                            ><a
+                              href="https://www.ncc-net.ac.jp/"
+                              target="_blank"
+                              class="teal-text hoverline"
+                              >Niigata Computer College</a
+                            ></span
+                          >
+                        </p>
+                        <p class="brown-text">
+                          3-chōme-1-53 Yoneyama, Chuo Ward, Niigata, 950-0916,
+                          Japan
+                        </p>
+                        <p>
+                          Bachelor's degree in Information Technology
+                          <br />
+                          <b>2016.09 - 2019.11</b>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col s12 m6 l6">
+                    <div class="card">
+                      <div class="card-content">
+                        <p>
+                          <span class="card-title"
+                            ><a
+                              href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"
+                              target="_blank"
+                              class="teal-text hoverline"
+                              >Certified Scrum Master</a
+                            ></span
+                          >
+                        </p>
+                        <p>
+                          <br />
+                          <b>2017.05 - 2018.05</b>
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="col s12 m6 l6">
-                  <div class="card">
-                    <div class="card-content">
-                      <p>
-                        <span class="card-title"><a href="https://www.scrumalliance.org/get-certified/scrum-master-track/certified-scrummaster"  target="_blank" class="teal-text hoverline">Certified Scrum Master</a></span>
-                      </p>
-                      <p>
-                        <br>
-                        <b>2017.05 - 2018.05</b>
-                      </p>
-                    </div>
+                <p>
+                  Looking for an opportunity to work in a challenging position
+                  combining my skills in Software Engineering, which provides
+                  professional development, interesting experiences and personal
+                  growth.
+                </p>
+              </div>
+              <div class="social">
+                <a href="https://x.com/ilertha" target="_blank">
+                  <button class="icon-btn github">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 512 512"
+                      height="22"
+                      width="22"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+                <a href="https://github.com/ilertha" target="_blank">
+                  <button class="icon-btn github">
+                    <i class="fa fa-github"></i>
+                  </button>
+                </a>
+                <a href="https://medium.com/@Nivlox" target="_blank">
+                  <button class="icon-btn github">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      viewBox="0 0 640 512"
+                      height="22"
+                      width="22"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+                <a
+                  href="https://discordapp.com/users/319834931578535937"
+                  target="_blank"
+                >
+                  <button class="icon-btn github">
+                    <svg
+                      stroke="currentColor"
+                      fill="currentColor"
+                      stroke-width="0"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                      ></path>
+                    </svg>
+                  </button>
+                </a>
+              </div>
+              <div class="buttons">
+                <a href="#contact" class="contactme">Contact Me</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Second Section: Skills -->
+      <section id="skills" class="section scrollspy">
+        <h3 class="page-title white-text teal">Skills</h3>
+        <div class="container">
+          <!-- Languages and Databases -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Full stack skills</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Angular.png"
+                    class="responsive-img"
+                  />Angular
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/AWS.png"
+                    class="responsive-img"
+                  />AWS
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Docker.png"
+                    class="responsive-img"
+                  />Docker
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/git.png"
+                    class="responsive-img"
+                  />Git
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Heroku.png"
+                    class="responsive-img"
+                  />Heroku
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/JavaScript.png"
+                    class="responsive-img"
+                  />JavaScript
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Next.js.png"
+                    class="responsive-img"
+                  />Next
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Node.js.png"
+                    class="responsive-img"
+                  />Node
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Python.png"
+                    class="responsive-img"
+                  />Python
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/React.png"
+                    class="responsive-img"
+                  />React
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Ruby on Rails.png"
+                    class="responsive-img"
+                  />Ruby on Rails
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/TypeScript.png"
+                    class="responsive-img"
+                  />Typescript
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Vue.js.png"
+                    class="responsive-img"
+                  />Vue
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/mysql-logo-1-300x300.jpg"
+                    class="responsive-img"
+                  />MySql
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/postgresql-logo.png"
+                    class="responsive-img"
+                  />PostgreSql
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Libraries and Frameworks -->
+          <div class="card">
+            <div class="card-content">
+              <h4 class="brown-text light">Blockchain Skills</h4>
+              <div class="row text-center">
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/icons8-ethereum-96.png"
+                    class="responsive-img"
+                  />Ethereum
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/coins.png"
+                    class="responsive-img"
+                  />Solidity
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/solana.png"
+                    class="responsive-img"
+                  />Solana
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/Rust.png"
+                    class="responsive-img"
+                  />Rust
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/icons8-anchor-64.png"
+                    class="responsive-img"
+                  />Anchor
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/icons8-token-50.png"
+                    class="responsive-img"
+                  />FT
+                </div>
+                <div class="col s4 m2">
+                  <img
+                    alt=""
+                    src="./assets/img/nft.png"
+                    class="responsive-img"
+                  />NFT
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Third Section: Projects -->
+      <section id="projects" class="section scrollspy">
+        <h3 class="page-title white-text teal">Projects</h3>
+        <div class="container">
+          <div class="row">
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="pumpfun"
+                    src="./assets/img/pump.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Solana pump.fun sniper bot<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Pump.fun</li>
+                    <li>Sniper</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    The Pump.Fun Sniper Bot is an advanced trading bot for the
+                    Solana blockchain, designed to execute high-speed
+                    transactions using Jito block-engine. The bot incorporates
+                    customizable filtering options and advanced transaction
+                    handling for optimal performance.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit "
+                      href=""
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/ilertha/Pump.fun-sniper-bot"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
                   </div>
                 </div>
               </div>
-              
-              <p>
-                Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
-              </p>
+            </div>
 
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="raydium"
+                    src="./assets/img/raydium.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Raydium VolumeBot<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Raydium</li>
+                    <li>VolumeBot</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    The Solana Raydium Volume Bot is a sophisticated open-source
+                    tool designed to efficiently facilitate high-volume
+                    transactions on the Solana blockchain. This script is ideal
+                    for users seeking to streamline complex transaction
+                    processes while maximizing performance.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit "
+                      href=""
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/ilertha/Solana-raydium-bot"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="social">
-              <a href="https://x.com/ilertha" target="_blank">
-                <button class="icon-btn github">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
-                </button>
-              </a>
-              <a href="https://github.com/ilertha" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-              <a href="https://medium.com/@Nivlox" target="_blank">
-                <button class="icon-btn github">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 640 512" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"></path></svg>
-                </button>
-              </a>
-              <a href="https://discordapp.com/users/319834931578535937" target="_blank">
-                <button class="icon-btn github">
-                  <svg stroke="currentColor" fill="currentColor" stroke-width="0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"></path></svg>
-                </button>
-              </a>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="nft staking"
+                    src="./assets/img/nft staking.PNG"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Solana pnft & corenft staking<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Anchor</li>
+                    <li>Web3</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    Developed and implemented a staking platform for Solana pNFT
+                    and MPL coreNFT, enabling users to securely stake. The
+                    project integrates advanced smart contract functionality,
+                    ensuring seamless interaction with Solana's blockchain. The
+                    platform supports decentralized asset management, providing
+                    a user-friendly command line interface for NFT staking.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit "
+                      href=""
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/ilertha/solana-pnft-mpl-core-nft-staking"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class='buttons'>
-              <a href="#contact" class="contactme">Contact Me</a>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="wise Whales"
+                    src="./assets/img/wiseWhales.PNG"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Wise Whales(web3 FE dev)<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Node.js Backend</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    Analyzed Orca, Serum, Raydium, Larix, Saber, Marinade,
+                    Francium, Katana, Mango, Tulip protocols and built the tool
+                    for catching whales transaction. And created NFTs with CM
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit "
+                      href="https://wisewhales.xyz/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/ilertha/wisewhales"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="modulu"
+                    src="./assets/img/modulu.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Moduluc (Smart Contract Dev)<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Node.js Backend</li>
+                    <li>Next.js</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title teal-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    Developed and deployed a variety of advanced smart contracts
+                    using Rust and Anchor for NFT swap, rental, staking, and
+                    breeding functionalities. These contracts are designed to
+                    facilitate seamless and secure interactions on the Solana
+                    blockchain, providing users with decentralized, automated
+                    solutions for trading, leasing, staking, and combining NFTs.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://moduluc.com/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/varadbhogayata/flask-blog"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Reavers"
+                    src="./assets/img/reavers.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Reavers<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>Anchor</li>
+                    <li>Next.js</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title teal-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    Reavers goes beyond being just an idle game by embracing a
+                    straightforward yet compelling overarching theme. The
+                    project's vulnerabilities were comprehensively audited and
+                    addressed to ensure its robustness. Additionally, database
+                    interactions have been optimized for improved performance.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://reavers.xyz/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/varadbhogayata/flask-blog"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Chainswap"
+                    src="https://www.mooncity.io/_next/image?url=%2Fprojects%2Fchainswap.gif&w=640&q=75"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Chainswap<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <ul>
+                    <li>Bitcoin, Ethereum, Solana</li>
+                    <li>Javascript</li>
+                    <li>Next.js</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    ChainSwap emerges as a revolutionary solution, bridging the
+                    gap between blockchains and empowering a more interconnected
+                    future. We leverage cutting-edge security protocols, built
+                    upon Chainlink's groundbreaking CCIP, to ensure a secure
+                    layer 5 environment for your cross-chain transactions.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://www.chain-swap.org/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/varadbhogayata/flask-blog"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="mirage"
+                    src="./assets/img/mirage.png"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Solana Token Launchpad<i
+                      class="mdi-navigation-more-vert right"
+                    ></i
+                  ></span>
+                  <ul>
+                    <li>Solana</li>
+                    <li>React.js</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    This site helps people who are interested in Crpyto Trading
+                    and solana blockchain development. Our project can make new
+                    SPL tokens. Then can create the token market and swap
+                    liquidity pool for token trading. By using our site, clients
+                    can make their own tokens and feel free to trade. I hope to
+                    help this site to clients that concentrated on blockchain.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://miragelaunchpad.xyz/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/ilertha/miragelaunchpad"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m6 l4">
+              <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img
+                    alt="Koromaru"
+                    src="./assets/img/koromaru.PNG"
+                    style="height: 100%; width: 100%"
+                    class="activator"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator teal-text hoverline"
+                    >Koromaru<i class="mdi-navigation-more-vert right"></i
+                  ></span>
+                  <ul>
+                    <li>BSC</li>
+                    <li>Solidity</li>
+                    <li>Unreal Engine</li>
+                  </ul>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title brown-text"
+                    ><small>Accomplishments</small
+                    ><i class="mdi-navigation-close right"></i
+                  ></span>
+                  <p>
+                    Koromaru is a play-to-earn (P2E) battle game available on
+                    the Binance Smart Chain (BSC). It features captivating 2D
+                    and 3D fighting effects developed using Unity. The game is
+                    enhanced with the Universal Fighting Engine (UFE) for an
+                    improved gaming experience.
+                  </p>
+                  <div class="card-action">
+                    <a
+                      aria-label="Visit Blog website"
+                      href="https://d3fqtz6zjfopso.cloudfront.net/"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Online"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-external-link"></i
+                    ></a>
+                    <a
+                      aria-label="Visit the GitHub repo for  project"
+                      href="https://github.com/rezzolib/koromaru-bsc-SC"
+                      target="_blank"
+                      data-position="top"
+                      data-tooltip="View Source"
+                      class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+                      ><i class="fa fa-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ************* -->
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Second Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Full stack skills</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Angular.png" class="responsive-img" />Angular
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/AWS.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Docker.png" class="responsive-img" />Docker
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Heroku.png" class="responsive-img" />Heroku
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/JavaScript.png" class="responsive-img" />JavaScript
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Next.js.png" class="responsive-img" />Next
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Node.js.png" class="responsive-img" />Node
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Python.png" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/React.png" class="responsive-img" />React
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Ruby on Rails.png" class="responsive-img" />Ruby on Rails
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/TypeScript.png" class="responsive-img" />Typescript
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Vue.js.png" class="responsive-img" />Vue
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySql
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/postgresql-logo.png" class="responsive-img" />PostgreSql
-              </div>
-            </div>
-          </div>
+      <!-- Forth Section: Contact -->
+      <section id="contact" class="section scrollspy full-height">
+        <h3 class="page-title white-text teal">Contact</h3>
+        <div class="container">
+          <p>
+            <a
+              aria-label="Email Varad"
+              href="mailto:jamesybarra98114@gmail.com"
+              target="_blank"
+              data-position="top"
+              data-tooltip="Email Varad"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><i class="fa fa-envelope"></i
+              ><a
+                aria-label="Email Varad"
+                href="mailto:jamesybarra98114@gmail.com"
+                class="hoverline"
+                >jamesybarra98114@gmail.com</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Varad on GitHub"
+              href="https://github.com/ilertha"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Varad on GitHub"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><i class="fa fa-github"></i
+              ><a
+                aria-label="Varad on Github"
+                href="https://github.com/ilertha"
+                class="hoverline"
+                target="_blank"
+                >github.com/ilertha</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Varad on X"
+              href="https://x.com/ilertha"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Varad on X"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                height="22"
+                width="22"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                ></path></svg
+              ><a
+                aria-label="Varad on X"
+                href="https://x.com/ilertha"
+                class="hoverline"
+                target="_blank"
+                >X.com/ilertha</a
+              ></a
+            >
+          </p>
+          <p>
+            <a
+              aria-label="View Varad on discord"
+              href="https://discordapp.com/users/393598468653842432"
+              target="_blank"
+              data-position="top"
+              data-tooltip="View Varad on discord"
+              class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"
+              ><svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"
+                ></path></svg
+              ><a
+                aria-label="Varad on discord"
+                href="https://discordapp.com/users/393598468653842432"
+                class="hoverline"
+                target="_blank"
+                >discord.com/Benix</a
+              ></a
+            >
+          </p>
         </div>
-        
-        <!-- Libraries and Frameworks -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Blockchain Skills</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/icons8-ethereum-96.png" class="responsive-img" />Ethereum
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/coins.png" class="responsive-img" />Solidity
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/solana.png" class="responsive-img" />Solana
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/Rust.png" class="responsive-img" />Rust
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/icons8-anchor-64.png" class="responsive-img" />Anchor
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/icons8-token-50.png" class="responsive-img" />FT
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="./assets/img/nft.png" class="responsive-img" />NFT
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </main>
 
-    <!-- Third Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="pumpfun" src="./assets/img/pump.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Solana pump.fun sniper bot<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Pump.fun</li>
-                  <li>Sniper</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  The Pump.Fun Sniper Bot is an advanced trading bot for the Solana blockchain, designed to execute high-speed transactions using Jito block-engine. 
-                  The bot incorporates customizable filtering options and advanced transaction handling for optimal performance.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit " href="" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rizzolib/Pump.fun-sniper-bot"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- typed.js -->
+    <script src="assets/vendor/typed.js/typed.min.js"></script>
+    <script type="text/javascript">
+      var typed = new Typed(".typing", {
+        strings: [
+          "Ethereum",
+          "Solidity, Truffle, Hardhat ...",
+          "Solana",
+          "Rust, Anchor, Pump.fun, Trading bots ...",
+        ],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 40,
+      });
+    </script>
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="raydium" src="./assets/img/raydium.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Raydium VolumeBot<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Raydium</li>
-                  <li>VolumeBot</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  The Solana Raydium Volume Bot is a sophisticated open-source tool designed to efficiently facilitate high-volume transactions on the Solana blockchain. 
-                  This script is ideal for users seeking to streamline complex transaction processes while maximizing performance.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit " href="" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rizzolib/Solana-raydium-bot"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="nft staking" src="./assets/img/nft staking.PNG" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Solana pnft & corenft staking<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Anchor</li>
-                  <li>Web3</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  Developed and implemented a staking platform for Solana pNFT and MPL coreNFT, enabling users to securely stake. 
-                  The project integrates advanced smart contract functionality, ensuring seamless interaction with Solana's blockchain. 
-                  The platform supports decentralized asset management, providing a user-friendly command line interface for NFT staking.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit " href="" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rizzolib/solana-pnft-mpl-core-nft-staking"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="wise Whales" src="./assets/img/wiseWhales.PNG" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Wise Whales(web3 FE dev)<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Node.js Backend</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  Analyzed Orca, Serum, Raydium, Larix, Saber, Marinade, Francium, Katana, Mango, Tulip protocols and built the tool for catching whales transaction. 
-                  And created NFTs with CM
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://wisewhales.xyz/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rizzolib/wisewhales"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="modulu" src="./assets/img/modulu.png"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Moduluc (Smart Contract Dev)<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Node.js Backend</li>
-                  <li>Next.js</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  Developed and deployed a variety of advanced smart contracts using Rust and Anchor for NFT swap, rental, staking, and breeding functionalities. 
-                  These contracts are designed to facilitate seamless and secure interactions on the Solana blockchain, providing users with decentralized, automated solutions for trading, leasing, staking, and combining NFTs.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://moduluc.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Reavers" 
-                     src="./assets/img/reavers.png"
-                     style="height: 100%; width: 100%" class="activator">
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Reavers<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>Anchor</li>
-                  <li>Next.js</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  Reavers goes beyond being just an idle game by embracing a straightforward yet compelling overarching theme. 
-                  The project's vulnerabilities were comprehensively audited and addressed to ensure its robustness. Additionally, database interactions have been optimized for improved performance.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://reavers.xyz/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Chainswap" src="https://www.mooncity.io/_next/image?url=%2Fprojects%2Fchainswap.gif&w=640&q=75" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Chainswap<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Bitcoin, Ethereum, Solana</li>
-                  <li>Javascript</li>
-                  <li>Next.js</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  ChainSwap emerges as a revolutionary solution, bridging the gap between blockchains and empowering a more interconnected future. 
-                  We leverage cutting-edge security protocols, built upon Chainlink's groundbreaking CCIP, to ensure a secure layer 5 environment for your cross-chain transactions.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://www.chain-swap.org/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="mirage" src="./assets/img/mirage.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Solana Token Launchpad<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>Solana</li>
-                  <li>React.js</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  This site helps people who are interested in Crpyto Trading and solana blockchain development. 
-                  Our project can make new SPL tokens. Then can create the token market and swap liquidity pool for token trading. 
-                  By using our site, clients can make their own tokens and feel free to trade. 
-                  I hope to help this site to clients that concentrated on blockchain.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://miragelaunchpad.xyz/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rizzolib/miragelaunchpad"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="disabled-icon btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Koromaru" src="./assets/img/koromaru.PNG" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Koromaru<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <ul>
-                  <li>BSC</li>
-                  <li>Solidity</li>
-                  <li>Unreal Engine</li>
-                </ul>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <p>
-                  Koromaru is a play-to-earn (P2E) battle game available on the Binance Smart Chain (BSC).
-                  It features captivating 2D and 3D fighting effects developed using Unity.
-                  The game is enhanced with the Universal Fighting Engine (UFE) for an improved gaming experience.
-                </p>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://d3fqtz6zjfopso.cloudfront.net/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rezzolib/koromaru-bsc-SC"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ************* -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Forth Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Email Varad" href="mailto:jamesybarra98114@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Varad" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Varad" href="mailto:jamesybarra98114@gmail.com"
-              class="hoverline">jamesybarra98114@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on GitHub" href="https://github.com/rizzolib" target="_blank"
-            data-position="top" data-tooltip="View Varad on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Varad on Github" href="https://github.com/rizzolib" class="hoverline"
-              target="_blank">github.com/rizzolib</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on X" href="https://x.com/james980114" target="_blank"
-            data-position="top" data-tooltip="View Varad on X"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="22" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg><a
-              aria-label="Varad on X" href="https://x.com/james980114" class="hoverline"
-              target="_blank">X.com/james980114</a></a>
-        </p>
-        <p>
-          <a aria-label="View Varad on discord" href="https://discordapp.com/users/393598468653842432" target="_blank"
-            data-position="top" data-tooltip="View Varad on discord"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><svg stroke="currentColor" fill="currentColor" stroke-width="0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.59 5.88997C17.36 5.31997 16.05 4.89997 14.67 4.65997C14.5 4.95997 14.3 5.36997 14.17 5.69997C12.71 5.47997 11.26 5.47997 9.83001 5.69997C9.69001 5.36997 9.49001 4.95997 9.32001 4.65997C7.94001 4.89997 6.63001 5.31997 5.40001 5.88997C2.92001 9.62997 2.25001 13.28 2.58001 16.87C4.23001 18.1 5.82001 18.84 7.39001 19.33C7.78001 18.8 8.12001 18.23 8.42001 17.64C7.85001 17.43 7.31001 17.16 6.80001 16.85C6.94001 16.75 7.07001 16.64 7.20001 16.54C10.33 18 13.72 18 16.81 16.54C16.94 16.65 17.07 16.75 17.21 16.85C16.7 17.16 16.15 17.42 15.59 17.64C15.89 18.23 16.23 18.8 16.62 19.33C18.19 18.84 19.79 18.1 21.43 16.87C21.82 12.7 20.76 9.08997 18.61 5.88997H18.59ZM8.84001 14.67C7.90001 14.67 7.13001 13.8 7.13001 12.73C7.13001 11.66 7.88001 10.79 8.84001 10.79C9.80001 10.79 10.56 11.66 10.55 12.73C10.55 13.79 9.80001 14.67 8.84001 14.67ZM15.15 14.67C14.21 14.67 13.44 13.8 13.44 12.73C13.44 11.66 14.19 10.79 15.15 10.79C16.11 10.79 16.87 11.66 16.86 12.73C16.86 13.79 16.11 14.67 15.15 14.67Z"></path></svg><a
-              aria-label="Varad on discord" href="https://discordapp.com/users/393598468653842432" class="hoverline"
-              target="_blank">discord.com/Benix</a></a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Ethereum", "Solidity, Truffle, Hardhat ...", "Solana", "Rust, Anchor, Pump.fun, Trading bots ..."],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
-</body>
-
+    <!-- Materialize - Compiled and minified JavaScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
+    <script>
+      // Materialize - Initializers
+      $(document).ready(function () {
+        $(".scrollspy").scrollSpy();
+        // Initialize collapse button
+        $(".button-collapse").sideNav({
+          menuWidth: 190, // Default is 240
+          edge: "left", // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+        });
+      });
+    </script>
+  </body>
 </html>
